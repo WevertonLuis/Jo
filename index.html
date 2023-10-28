@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Jogo - Sprint 4</title>
+    
+    <style>
+      #canvas {
+        border: 3px solid #000;
+        background-color: #65666A ;
+      } 
+      
+      #robo1, #robo2 {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+      }
+
+      body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000;
+        }
+    </style>
+
+  
+  </head>
+
+  <body>
+     
+    <img id="robo1Image" src="./Images/robo3.png" style="display: none;">
+    <img id="robo2Image" src="./Images/robo2.png" style="display: none;">
+
+   
+    <canvas id="canvas" width="1000" height="500"></canvas>
+    
+    <script type="text/javascript" src="./js/quadrado.js"></script>
+    <script type="text/javascript" src="./js/funcoes.js"></script>
+  </body>
+
+</html>
